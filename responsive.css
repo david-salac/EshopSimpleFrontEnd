@@ -1,0 +1,221 @@
+@media screen and (max-width: 950px) {
+    .basket {
+        width: 80%;
+        padding: 5% 10% 5% 10%;
+    }
+
+    .basket:before {
+        float: left;
+        display: block;
+        font-family: 'FontAwesome';
+        font-size: 40px;
+        margin-top: -5px;
+        content: "\f07a";
+        color: white;
+    }
+
+    .basket #count {
+        margin: 0; padding: 0;
+    }
+    .basket #sum {
+        margin: 0; padding: 0;
+    }
+    header ul {
+        padding: 0 15px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    header ul li a {
+        float: none;
+        width: 100%;
+        border: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        height: 30px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid white;
+    }
+    header ul li {
+
+    }
+    header ul li a:hover, header ul li a.selected {
+        border: none;
+        background: none;
+        color: black;
+        border-bottom: 1px solid white;
+        font-weight: bold;
+    }
+    aside {
+        width: 100%;
+    }
+    article {
+        width: 100%;
+    }
+    article .sortOption span {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    article .sortOption a {
+        float: left;
+    }
+    #contentWrap {
+        min-width: inherit;
+    }
+
+    .english, .czech {
+        float: none;
+        
+    }
+    .english a:hover, .czech a:hover {
+        border: none;
+    }
+    .detail .left {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .detail .right {
+        float: none;
+        width: 100%;
+    }
+    
+    .itemHref > span {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    .itemHref > strong {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    
+}
+
+
+@media screen and (max-width: 670px) {
+    
+    .item .basketOption {
+        
+        float: left;
+        width: 95%;
+    }
+    .addToBasket {
+        width: 80%;
+        float: left;
+    }
+    .addToBasket:after {
+        padding: 0; margin: 0;
+        content: inherit;
+        display: none;
+        float: none;
+    }
+    .item .itemDescription input[type="number"] {
+        width: 10%;
+        height: 20px;
+    }
+
+    .basket #count {
+        margin: 0; padding: 0;
+    }
+    .basket #sum {
+        margin: 0; padding: 0;
+    }
+
+
+    .basket:before {
+        float: left;
+        display: block;
+        font-family: 'FontAwesome';
+        font-size: 40px;
+        margin-top: -5px;
+        content: "\f07a";
+        color: white;
+    }
+    .item a > .price {
+        float: none;
+        width: 100%;
+    }
+    .basketItem {
+        box-sizing: border-box;
+    }
+    .basketItem .basketInStock {
+        float: none;;
+        width: 100%;
+    }
+    .basketItem .basketInStock > span {
+        font-weight: bold;
+    }
+    .basketItem .basketCount {
+        float: none;;
+        width: 100%;
+    }
+    .basketItem .basketCount input {
+        float: none;;
+        width: 100%;
+    }
+    .basketItem .pricePerItem, .basketItem .priceAllItems {
+        float: none;;
+        width: 100%;
+    }
+    .basketItem .basketItemDelete {
+        float: none;;
+        width: 100%;
+    }
+    
+    
+    .basketItem .thumbnail {
+        float: none;;
+        width: 100%;
+    }
+    .basketItem .thumbnail img {
+        float: none;;
+        width: 100%;
+    }
+    .basketItem .basketItemName {
+        float: none;;
+        width: 100%;
+    }
+    .basketItem > div >* {
+        text-align: center;
+        padding: 0px;
+    }
+    .basketItem > div input[type="number"] {
+        max-width: 80%;
+    }
+    #logo { 
+        margin: 0; padding: 0 0 10px 0;
+        float: none;
+        text-align: center;
+        background: none;
+        background-size: 70px auto;
+        
+    }
+    #logo a {
+        margin: 0; padding: 0;
+        float: none;
+        
+        font-size: 15pt;
+    }
+    #logo span {
+        margin: 0; padding: 0;
+
+        font-style: italic; font-weight: bold;
+        font-size: 1.1em;
+        float: none;
+    }
+    
+    #zemeCR {
+        float: left;
+        display: block;
+        width: 100%;
+    }
+    #zemeSK {
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+    
+}

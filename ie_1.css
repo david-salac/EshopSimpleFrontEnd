@@ -1,0 +1,11 @@
+html {
+    margin: 0; padding: 0;
+    background: #00214d;
+}
+#contentWrap {
+    background: white;
+}
+.basket {
+    background: #03a9f4;
+    margin-bottom: 20px;
+}

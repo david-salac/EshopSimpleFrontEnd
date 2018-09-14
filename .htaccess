@@ -1,0 +1,27 @@
+RewriteEngine On
+
+
+RewriteRule ^(.*).jsp$ index.php?basketDelete=$1
+
+RewriteRule ^edit(.*).phtm$ index.php?basketChange=$1
+RewriteRule ^ok(.*).phtm$ index.php?sendOrder=$1
+
+RewriteRule ^basket-(.*).phtml$ index.php?basketDetail=$1
+RewriteRule ^kosik-(.*).phtml$ index.php?basketDetail=$1
+
+RewriteRule ^(.*).phtml$ index.php?id=$1
+
+RewriteRule ^basket-add-(.*).html$ index.php?basket=$1
+RewriteRule ^pridat-do-kosiku-(.*).html$ index.php?basket=$1
+
+RewriteRule ^color-(.*).html$ index.php?sortOptCol=$1
+RewriteRule ^barva-(.*).html$ index.php?sortOptCol=$1
+
+RewriteRule ^volume-(.*).html$ index.php?sortOptVol=$1
+RewriteRule ^objem-(.*).html$ index.php?sortOptVol=$1
+
+RewriteRule ^(.*).html$ index.php?product=$1
+
+ErrorDocument 404 /index.php?id=404
+
+#RewriteRule ^aktuality_(.*).htm$ index.php?typ=aktuality&aktualni=$1
